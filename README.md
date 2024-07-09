@@ -1,22 +1,31 @@
-# Student-Admission-Management-System
+# Student Admission Management System
 
-The Student Admission Management System (SAMS) provides a comprehensive platform for managing student admissions efficiently. It includes modules for administrators, applicants, and admissions staff, facilitating a streamlined process from application submission to enrollment.
+The Student Admission Management System (SAMS) is designed to streamline the process of student admissions within educational institutions. It provides modules for administrators, applicants, and admissions staff to manage the entire admission lifecycle efficiently.
 
-Technologies Utilized: Java, Spring Boot, Hibernate, Angular, REST
+## Technologies Used
 
-Key Features:
-•	Administrator Dashboard: Centralized control over admission processes, application management, and decision-making.
-•	Applicant Portal: Intuitive interface for applicants to submit applications, track status, and receive notifications.
-•	Admissions Staff Tools: Tools for application review, interview scheduling, and candidate evaluation.
+- Java
+- Spring Boot
+- Hibernate
+- Angular
+- REST
 
-To-do:
-•	Develop additional features for enhanced applicant engagement.
-•	Implement analytics for data-driven admissions decisions.
+## Key Features
 
-Usage Instructions:
-1.	Set up the project with required dependencies in your development environment.
-2.	Deploy the application on a server (e.g., Tomcat).
-3.	Access the application through the specified URL to manage admissions effectively.
+- Administrator Dashboard for centralized control over admission processes.
+- Applicant Portal for submitting applications and tracking status.
+- Admissions Staff Tools for application review and candidate evaluation.
 
-The system leverages Java technologies, Spring Boot for backend operations, Hibernate for database management, and Angular for frontend development, ensuring scalability, reliability, and user-friendly experience in student admissions management.
+## To-do
 
+- Implement additional features for enhancing applicant engagement.
+- Integrate analytics for data-driven admissions decisions.
+
+## Usage
+
+1. Clone the repository.
+2. Install dependencies using Maven (for backend) and npm (for frontend).
+3. Configure database connection in `application.properties`.
+4. Run the Spring Boot application.
+5. Navigate to the Angular frontend directory and run `ng serve`.
+6. Access the application in your web browser at `http://localhost:4200`.
